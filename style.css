@@ -157,6 +157,7 @@ FOR CONTACT
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 span{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
@@ -164,9 +165,36 @@ span{
     padding: 16px;
     margin: 45px 400px;
 }
-.con1{
-    margin-top: 89px;
+
+#article{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    margin-left: 40px;
+    text-decoration: wavy;
+    font-weight: bold;
 }
+#sign{
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 57px;
+    font-size: 20px;
+}
+.con1{
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* 
+=====
+form 
+====
+*/
+
+form{
+    display: none;
+}
+
 
 @media (max-width: 952px) {
     #logo {
